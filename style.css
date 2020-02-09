@@ -54,7 +54,7 @@ h1 {
 
 .credits {
   position: absolute;
-  bottom: 20px;
+  bottom: 12px;
   left: 50%;
   display: none;
   transform: translateX(-50%);
