@@ -7,7 +7,6 @@
     <title>Countdown</title>
   </head>
   <body>
-
     <h1>Countdown to Candle Con</h1>
 
     <div id="countdown" class="countdown">
@@ -30,14 +29,20 @@
     </div>
 
     <div>
-      <form class="newsletter">
+      <form class="newsletter" id="form">
         <label for="email">Subscribe to the newsletter for updates</label>
-        <input type="email" required id="email" class="email" />
+        <input
+          type="email"
+          required
+          id="email"
+          class="email"
+          placeholder="Enter your email address"
+        />
         <button type="submit" id="button" class="button">Submit</button>
       </form>
     </div>
 
-    <div class="credits">
+    <div class="credits" id="credits">
       <i class="fab fa-github"></i>
       <p>
         Made by a
@@ -49,15 +54,16 @@
           >
         </a>
       </p>
-    </>
+    </div>
 
-    <img
-      src="./img/loading.svg"
-      alt="Loading..."
-      id="loading"
-      class="loading"
-    />
+      <img
+        src="./img/loading.svg"
+        alt="Loading..."
+        id="loading"
+        class="loading"
+      />
 
-    <script src="script.js"></script>
+      <script src="script.js"></script>
+    </div>
   </body>
 </html>

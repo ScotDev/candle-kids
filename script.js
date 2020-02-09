@@ -4,7 +4,11 @@ const minutes = document.getElementById('minutes');
 const seconds = document.getElementById('seconds');
 const countdown = document.getElementById('countdown');
 const year = document.getElementById('year');
+const newsletter = document.getElementById('newsletter');
+const credits = document.getElementById('credits');
 const loading = document.getElementById('loading');
+const form = document.getElementById('form');
+
 
 const currentYear = new Date().getFullYear();
 
@@ -27,11 +31,26 @@ function updateCountdown() {
     seconds.innerHTML = s < 10 ? '0' + s : s;
 }
 
+// Redirect to prank site
+function submitPrank() {
+    window.location.href = "https://sketchywebsite.net/";
+}
+
+
 // Show spinner before content load
 setTimeout(() => {
     loading.remove();
     countdown.style.display = 'flex';
+    form.style.display = 'flex';
+    credits.style.display = 'flex';
 }, 1000);
 
 // Run every second
 setInterval(updateCountdown, 1000);
+
+
+// Event listeners
+form.addEventListener('submit', function (e) {
+    e.preventDefault();
+    submitPrank();
+});
