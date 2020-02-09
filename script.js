@@ -10,8 +10,6 @@ const currentYear = new Date().getFullYear();
 
 const candleConTime = new Date(`June 25 ${currentYear} 00:00:00`);
 
-// Set background year
-// year.innerText = currentYear + 1;
 
 // Update counter
 function updateCountdown() {
