@@ -194,6 +194,9 @@ button {
   }
 
   .newsletter {
-    bottom: 125px;
+    bottom: 100px;
+  }
+  .credits {
+    bottom: 10px;
   }
 }
