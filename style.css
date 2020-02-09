@@ -148,7 +148,7 @@ button {
 }
 
 .newsletter button {
-  color: black;
+  color: #2e2d2d;
   background-color: var(--accent-color-1);
   border: 0px solid;
   font-weight: bold;
