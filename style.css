@@ -154,9 +154,9 @@ button {
   font-family: inherit;
 }
 
-.newsletter input:hover {
+/* .newsletter input:hover {
   border: 2px solid var(--accent-color-2);
-}
+} */
 
 .newsletter button {
   color: #2e2d2d;
