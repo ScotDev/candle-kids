@@ -12,7 +12,7 @@ const form = document.getElementById('form');
 
 const currentYear = new Date().getFullYear();
 
-const candleConTime = new Date(`June 25 ${currentYear} 00:00:00`);
+const candleConTime = new Date(`May 11 ${currentYear} 00:00:00`);
 
 
 // Update counter
