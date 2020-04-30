@@ -10,7 +10,7 @@ const loading = document.getElementById('loading');
 const form = document.getElementById('form');
 
 
-const currentYear = new Date().getFullYear();
+const currentYear = new Date().getFullYear() + 1;
 
 const candleConTime = new Date(`May 11 ${currentYear} 00:00:00`);
 
