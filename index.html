@@ -3,67 +3,83 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.1/css/all.css" integrity="sha384-v8BU367qNbs/aIZIxuivaU55N5GPF89WBerHoGA4QTcbUjYiLQtKdrfXnqAcXyTv" crossorigin="anonymous">
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.12.1/css/all.css"
+      integrity="sha384-v8BU367qNbs/aIZIxuivaU55N5GPF89WBerHoGA4QTcbUjYiLQtKdrfXnqAcXyTv"
+      crossorigin="anonymous"
+    />
     <link rel="stylesheet" href="style.css" />
     <link rel="icon" href="./img/CK.png" />
     <title>CandleCon Countdown</title>
   </head>
   <body>
-    <h1>Countdown to CandleCon</h1>
-    <h2 class="location"><i class="fas fa-map-marker-alt"></i> <a href="https://goo.gl/maps/eHLsRsBCQhFmrR3i8" class="location-link" target="_blank">Amsterdam</a></h2>
-
-    <div id="countdown" class="countdown">
-      <div class="time">
-        <h2 id="days">00</h2>
-        <small>days</small>
-      </div>
-      <div class="time">
-        <h2 id="hours">00</h2>
-        <small>hours</small>
-      </div>
-      <div class="time">
-        <h2 id="minutes">00</h2>
-        <small>minutes</small>
-      </div>
-      <div class="time">
-        <h2 id="seconds">00</h2>
-        <small>seconds</small>
-      </div>
-    </div>
-
-    <div>
-      <form class="newsletter" id="form">
-        <label for="email">Subscribe to the newsletter for updates</label>
-        <input
-          type="email"
-          id="email"
-          class="email"
-          placeholder="Enter your email address"
-        />
-        <button type="submit" id="button" class="button">Submit</button>
-      </form>
-    </div>
-
-    <div class="credits" id="credits">
-      <p>
-        Made by a
-        <a href="https://github.com/ScotDev" class="tooltip" target="_blank">
-          Tealight<span class="tooltiptext"
-            >Tealight <span class="phonetics">(ˈtiːˌlaɪt) </span> NOUN - 1. A
-            Candle Kid who is yet to earn their stripes. 2. A pathetic
-            scrub</span
-          >
-          <i class="fab fa-github"></i>
-        </a>
-      </p>
-    </div>
+    <div class="container">Container</div>
+    <div class="content">
+      <h1>Countdown to CandleCon</h1>
+      <h2 class="location">
+        <i class="fas fa-map-marker-alt"></i>
+        <a
+          href="https://goo.gl/maps/eHLsRsBCQhFmrR3i8"
+          class="location-link"
+          target="_blank"
+          >Amsterdam</a
+        >
+      </h2>
 
       <img
         src="./img/loading.svg"
-        alt="Loading..."
+        alt="Loading spinner"
         id="loading"
         class="loading"
       />
+
+      <div id="countdown" class="countdown">
+        <div class="time">
+          <h2 id="days">00</h2>
+          <small>days</small>
+        </div>
+        <div class="time">
+          <h2 id="hours">00</h2>
+          <small>hours</small>
+        </div>
+        <div class="time">
+          <h2 id="minutes">00</h2>
+          <small>minutes</small>
+        </div>
+        <div class="time">
+          <h2 id="seconds">00</h2>
+          <small>seconds</small>
+        </div>
+      </div>
+
+      <div>
+        <form class="newsletter" id="form">
+          <label for="email">Subscribe to the newsletter for updates</label>
+          <input
+            type="email"
+            id="email"
+            class="email"
+            placeholder="Enter your email address"
+          />
+          <button type="submit" id="button" class="button">Submit</button>
+        </form>
+      </div>
+
+      <div class="credits" id="credits">
+        <p>
+          Made by a
+          <a href="https://github.com/ScotDev" class="tooltip" target="_blank">
+            Tealight<span class="tooltiptext"
+              >Tealight <span class="phonetics">(ˈtiːˌlaɪt) </span> NOUN - 1. A
+              Candle Kid who is yet to earn their stripes. 2. A pathetic
+              scrub</span
+            >
+            <i class="fab fa-github"></i>
+          </a>
+        </p>
+      </div>
+      <!-- </div> -->
 
       <script src="script.js"></script>
     </div>
